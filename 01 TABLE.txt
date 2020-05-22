@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eg">
+<head><meta charset="UTF-8">
+<title>Table_Practice</title>
+</head>
+
+<body>
+<h1 align="center">FRIST HTML ASSIGNMENT</h1>
+
+<table align="center" border="4px">
+<tr align="center" border="4px">
+<td height="300px" width="400px" colspan="2"><img src="A01.jpg" alt="This is a 1 QUOTE!!" height="450px" width="100%" align="center"></td>
+<td bgcolor="PaleVioletRed" height="300px" width="400px" colspan="2">Click on an image for further details</td>
+<td bgcolor="PaleVioletRed" height="300px" width="400px" colspan="2"><img src="A02.jpg" alt="This is a 2 QUOTE" height="300px" width="394px"></td>
+</tr>
+<tr border="2px">
+<td colspan="6" height="250px" width="1200px" border="2px"><a href="https://i.etsystatic.com/18467996/r/il/e28e75/2147979862/il_fullxfull.2147979862_kn5j.jpg"><img src="A03.jpg" alt="This is a 3 QUOTE!!" height="250px" width="100%"></a></td>
+</tr>
+<tr border="2px">
+<td bgcolor="black" colspan="6" height="150px" width="1200px" border="2px">
+<p align="center">
+Whatever happens tomorrow you must promise me one thing.
+<br>
+That you will stay who you are.
+<br>
+Not a perfect soldier,
+<br>
+but a <b>good man</b>.
+</p>
+</td>
+</tr>
+<tr border="2px">
+<td bgcolor="blue" colspan="3" height="300px" width="600px">
+<h2>
+<p align="center">
+
+"Faith is my sword.
+<br>
+ Truth is my shield.
+ <br>
+ Knowledge my armor."
+ <br>
+  – <cite>Stephen Strange..</cite>
+ </h2>
+</p>
+</h1>
+</td>
+<td colspan="3" height="300px" width="600px"><img src="A07.jpg" alt="This is a 7th quote!!" height="550px" width="100%" align="center"></td>
+</tr>
+
+
+</table>
+</body>
+</html>
