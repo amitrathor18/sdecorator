@@ -1,0 +1,87 @@
+<!Doctype html>
+<html lang="eg">
+<head>
+<meta charset="UTF-8">
+<title>HTML forms</title>
+</head>
+<body>
+
+<h3 align="center">Patient Details</h3>
+
+<form>
+<fieldset>
+<legend>Personal Information</legend>
+<table>
+<tbody>
+
+<tr>
+<td>First Name:</td>
+<td><input type="text" size="30" maxlength="40"></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="Gender" value="Male">Male
+<input type="radio" name="Gender" value="Female">Female
+</td>
+</tr>
+
+<tr>
+<td>Last Name:</td>
+<td><input type="text" size="30" maxlength="40"></td>
+</tr>
+
+<tr>
+<td>Nationality:</td>
+ <td>
+ <select name="dropdown menu">
+ <option value="Canada">Canadian</option>
+ <option value="Africa">African</option>
+ <option value="India">Indian</option>
+ </select>
+ </td>
+ </tr>
+ <tr>
+ <td>Address:</td>
+ <td>
+<textarea rows="10" cols="50" wrap="physical"></textarea>
+</td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+</form>
+
+<form>
+<fieldset>
+
+<legend>Medical History</legend>
+<input type="checkbox" name="option1" value="Smallpox">Smallpox
+<input type="checkbox" name="option2" value="Mumps">Mumps
+<input type="checkbox" name="option3" value="Dizzness">Dizzness
+<input type="checkbox" name="option4" value="Sneezing">Sneezing
+
+</fieldset>
+</form>
+
+<form>
+<fieldset>
+
+<legend>Current Medication</legend>
+Are you currently taking any medication?
+<input type="radio" name="option1" value="Yes">Yes
+<input type="radio" name="option2" value="No">No
+<br>
+
+If you currently taking medication, please indicate it in space below:
+<br>
+
+<textarea rows="10" cols="80" wrap="physical"></textarea>
+
+</fieldset>
+</form>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</body>
