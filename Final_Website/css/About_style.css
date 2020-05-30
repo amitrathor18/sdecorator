@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=PT+Sans+Narrow:wght@700&family=Tenali+Ramakrishna&display=swap');
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+section
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #bdcdf8;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+}
+
+section::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	Left: 0;
+	width: 50;
+	height: 100%;
+	background: #27f565;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+}
+section .container
+{
+	position: relative;
+	min-width: 1100px;
+	min-height: 550px;
+	display: flex;
+	z-index: 100;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+}
+
+section .container .contactinfo
+{
+	position: absolute;
+	top: 40px;
+	width: 350px;
+	height: 350px;
+	height: calc(100% - 80px);
+	background: #of3959;
+	z-index: 1;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+
+}
+
+section .container .contactinfo h2
+{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+}
+section .container .contactinfo .info
+{
+	position: relative;
+	margin: 20px 0;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+	
+}
+section .container .contactinfo .info li
+{
+	position: relative;
+	list-style: none;
+	display: flex;
+	margin: 20px 0;
+	cursor: pointer;
+	align-items: flex-start;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=PT+Sans+Narrow:wght@700&family=Tenali+Ramakrishna&display=swap');
+body{
+	background: #f4f7f5;
+	margin: 0px;
+	padding: 0px; 
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+}
+h2   {color: #040e10;}
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{ 
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+	
+}
+.div-1 {
+			font-size: 30px;
+			font-family: 'Tenali Ramakrishna', sans-serif;
+
+    }
+
+header{
+	background: #132226;
+	
+	height: 70px;
+	padding: 30px;
+	text-align: center;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+	font-size: 25px;
+	
+	color: white;
+}
+	
+#left-nav{
+	float: left;
+	
+	margin: 0px;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+	padding: 0px;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+#right-nav{
+	float: right;
+}
+
+#right-nav li{
+	display: inline-block;
+	margin: 10px;
+}
+
+
+footer{
+	clear: both;
+	
+	background: #BE9063;
+	
+	margin-top: 500px;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+
+	text-align: center;
+	
+	padding: 10px;
+	
+	color: rgb(53, 23, 2); 
+} 
